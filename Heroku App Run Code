@@ -1,0 +1,195 @@
+-----> Ruby app detected
+-----> Compiling Ruby/Rack
+-----> Using Ruby version: ruby-2.3.4
+-----> Installing dependencies using bundler 1.15.2
+       Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment
+       fatal: Not a git repository (or any parent up to mount point /tmp)
+       Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+       Fetching gem metadata from https://rubygems.org/...........
+       Fetching version metadata from https://rubygems.org/..
+       Fetching dependency metadata from https://rubygems.org/.
+       Fetching rake 10.1.1
+       Fetching i18n 0.6.9
+       Fetching json 1.8.1
+       Installing i18n 0.6.9
+       Installing rake 10.1.1
+       Installing json 1.8.1 with native extensions
+       Fetching minitest 5.4.0
+       Fetching thread_safe 0.3.4
+       Installing thread_safe 0.3.4
+       Installing minitest 5.4.0
+       Fetching builder 3.2.2
+       Fetching curb 0.8.6
+       Installing builder 3.2.2
+       Installing curb 0.8.6 with native extensions
+       Fetching ruby-hmac 0.4.0
+       Installing ruby-hmac 0.4.0
+       Using bundler 1.15.2
+       Fetching hashie 2.0.5
+       Installing hashie 2.0.5
+       Fetching multi_xml 0.5.5
+       Installing multi_xml 0.5.5
+       Fetching multi_json 1.10.1
+       Installing multi_json 1.10.1
+       Fetching multipart-post 1.2.0
+       Installing multipart-post 1.2.0
+       Fetching jwt 1.0.0
+       Installing jwt 1.0.0
+       Fetching rack 1.5.2
+       Installing rack 1.5.2
+       Fetching mime-types 2.0
+       Installing mime-types 2.0
+       Fetching stathat 0.1.7
+       Fetching tco 0.1.0
+       Installing stathat 0.1.7
+       Fetching thor 0.18.1
+       Installing thor 0.18.1
+       Fetching money 6.1.1
+       Installing tco 0.1.0
+       Installing money 6.1.1
+       Fetching tzinfo 1.2.2
+       Fetching faraday 0.8.8
+       Installing tzinfo 1.2.2
+       Fetching mail 2.6.1
+       Installing faraday 0.8.8
+       Installing mail 2.6.1
+       Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+       current directory:
+       /tmp/build_849b4ac6cfae0894c440b0b39d5be737/hstove-rbtc_arbitrage-252037c/vendor/bundle/ruby/2.3.0/gems/json-1.8.1/ext/json/ext/generator
+       /tmp/build_849b4ac6cfae0894c440b0b39d5be737/hstove-rbtc_arbitrage-252037c/vendor/ruby-2.3.4/bin/ruby
+       -r ./siteconf20180216-218-1bkfmdn.rb extconf.rb
+       creating Makefile
+       current directory:
+       /tmp/build_849b4ac6cfae0894c440b0b39d5be737/hstove-rbtc_arbitrage-252037c/vendor/bundle/ruby/2.3.0/gems/json-1.8.1/ext/json/ext/generator
+       make "DESTDIR=" clean
+       current directory:
+       /tmp/build_849b4ac6cfae0894c440b0b39d5be737/hstove-rbtc_arbitrage-252037c/vendor/bundle/ruby/2.3.0/gems/json-1.8.1/ext/json/ext/generator
+       make "DESTDIR="
+       compiling generator.c
+       In file included from generator.c:1:0:
+       ../fbuffer/fbuffer.h: In function ‘fbuffer_to_s’:
+       ../fbuffer/fbuffer.h:175:47: error: macro "rb_str_new" requires 2 arguments, but
+       only 1 given
+       VALUE result = rb_str_new(FBUFFER_PAIR(fb));
+       ^
+       ../fbuffer/fbuffer.h:175:20: warning: initialization makes integer from pointer
+       without a cast [-Wint-conversion]
+       VALUE result = rb_str_new(FBUFFER_PAIR(fb));
+       ^
+       Makefile:238: recipe for target 'generator.o' failed
+       make: *** [generator.o] Error 1
+       make failed, exit code 2
+       Gem files will remain installed in
+       /tmp/build_849b4ac6cfae0894c440b0b39d5be737/hstove-rbtc_arbitrage-252037c/vendor/bundle/ruby/2.3.0/gems/json-1.8.1
+       for inspection.
+       Results logged to
+       /tmp/build_849b4ac6cfae0894c440b0b39d5be737/hstove-rbtc_arbitrage-252037c/vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0/json-1.8.1/gem_make.out
+       An error occurred while installing json (1.8.1), and Bundler cannot continue.
+       Make sure that `gem install json -v '1.8.1'` succeeds before bundling.
+       In Gemfile:
+       rbtc_arbitrage was resolved to 2.4.4, which depends on
+       bitstamp-rbtc-arbitrage was resolved to 0.4.0, which depends on
+       activemodel was resolved to 4.1.5, which depends on
+       activesupport was resolved to 4.1.5, which depends on
+       json
+       Bundler Output: fatal: Not a git repository (or any parent up to mount point /tmp)
+       Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+       Fetching gem metadata from https://rubygems.org/...........
+       Fetching version metadata from https://rubygems.org/..
+       Fetching dependency metadata from https://rubygems.org/.
+       Fetching rake 10.1.1
+       Fetching i18n 0.6.9
+       Fetching json 1.8.1
+       Installing i18n 0.6.9
+       Installing rake 10.1.1
+       Installing json 1.8.1 with native extensions
+       Fetching minitest 5.4.0
+       Fetching thread_safe 0.3.4
+       Installing thread_safe 0.3.4
+       Installing minitest 5.4.0
+       Fetching builder 3.2.2
+       Fetching curb 0.8.6
+       Installing builder 3.2.2
+       Installing curb 0.8.6 with native extensions
+       Fetching ruby-hmac 0.4.0
+       Installing ruby-hmac 0.4.0
+       Using bundler 1.15.2
+       Fetching hashie 2.0.5
+       Installing hashie 2.0.5
+       Fetching multi_xml 0.5.5
+       Installing multi_xml 0.5.5
+       Fetching multi_json 1.10.1
+       Installing multi_json 1.10.1
+       Fetching multipart-post 1.2.0
+       Installing multipart-post 1.2.0
+       Fetching jwt 1.0.0
+       Installing jwt 1.0.0
+       Fetching rack 1.5.2
+       Installing rack 1.5.2
+       Fetching mime-types 2.0
+       Installing mime-types 2.0
+       Fetching stathat 0.1.7
+       Fetching tco 0.1.0
+       Installing stathat 0.1.7
+       Fetching thor 0.18.1
+       Installing thor 0.18.1
+       Fetching money 6.1.1
+       Installing tco 0.1.0
+       Installing money 6.1.1
+       Fetching tzinfo 1.2.2
+       Fetching faraday 0.8.8
+       Installing tzinfo 1.2.2
+       Fetching mail 2.6.1
+       Installing faraday 0.8.8
+       Installing mail 2.6.1
+       Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+       
+       current directory:
+       /tmp/build_849b4ac6cfae0894c440b0b39d5be737/hstove-rbtc_arbitrage-252037c/vendor/bundle/ruby/2.3.0/gems/json-1.8.1/ext/json/ext/generator
+       /tmp/build_849b4ac6cfae0894c440b0b39d5be737/hstove-rbtc_arbitrage-252037c/vendor/ruby-2.3.4/bin/ruby
+       -r ./siteconf20180216-218-1bkfmdn.rb extconf.rb
+       creating Makefile
+       
+       current directory:
+       /tmp/build_849b4ac6cfae0894c440b0b39d5be737/hstove-rbtc_arbitrage-252037c/vendor/bundle/ruby/2.3.0/gems/json-1.8.1/ext/json/ext/generator
+       make "DESTDIR=" clean
+       
+       current directory:
+       /tmp/build_849b4ac6cfae0894c440b0b39d5be737/hstove-rbtc_arbitrage-252037c/vendor/bundle/ruby/2.3.0/gems/json-1.8.1/ext/json/ext/generator
+       make "DESTDIR="
+       compiling generator.c
+       In file included from generator.c:1:0:
+       ../fbuffer/fbuffer.h: In function ‘fbuffer_to_s’:
+       ../fbuffer/fbuffer.h:175:47: error: macro "rb_str_new" requires 2 arguments, but
+       only 1 given
+       VALUE result = rb_str_new(FBUFFER_PAIR(fb));
+       ^
+       ../fbuffer/fbuffer.h:175:20: warning: initialization makes integer from pointer
+       without a cast [-Wint-conversion]
+       VALUE result = rb_str_new(FBUFFER_PAIR(fb));
+       ^
+       Makefile:238: recipe for target 'generator.o' failed
+       make: *** [generator.o] Error 1
+       
+       make failed, exit code 2
+       
+       Gem files will remain installed in
+       /tmp/build_849b4ac6cfae0894c440b0b39d5be737/hstove-rbtc_arbitrage-252037c/vendor/bundle/ruby/2.3.0/gems/json-1.8.1
+       for inspection.
+       Results logged to
+       /tmp/build_849b4ac6cfae0894c440b0b39d5be737/hstove-rbtc_arbitrage-252037c/vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0/json-1.8.1/gem_make.out
+       
+       An error occurred while installing json (1.8.1), and Bundler cannot continue.
+       Make sure that `gem install json -v '1.8.1'` succeeds before bundling.
+       
+       In Gemfile:
+       rbtc_arbitrage was resolved to 2.4.4, which depends on
+       bitstamp-rbtc-arbitrage was resolved to 0.4.0, which depends on
+       activemodel was resolved to 4.1.5, which depends on
+       activesupport was resolved to 4.1.5, which depends on
+       json
+ !
+ !     Failed to install gems via Bundler.
+ !
+ !     Push rejected, failed to compile Ruby app.
+ !     Push failed
